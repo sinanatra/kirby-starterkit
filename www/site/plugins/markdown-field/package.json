@@ -1,0 +1,35 @@
+{
+  "name": "kirby-markdown-field",
+  "version": "0.1.0",
+  "description": "Enhanced markdown editor for Kirby 3",
+  "main": "index.js",
+  "author": "Kirby Community",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sylvainjule/kirby-markdown-field.git"
+  },
+  "scripts": {
+    "dev": "parcel watch src/index.js --no-source-maps -d ./",
+    "build": "parcel build src/index.js --no-source-maps --experimental-scope-hoisting -d ./"
+  },
+  "posthtml": {
+    "recognizeSelfClosing": true
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 11"
+  ],
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.1.1",
+    "codemirror": "^5.52.2",
+    "cssnano": "^4.1.10",
+    "sass": "^1.26.3",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4"
+  }
+}

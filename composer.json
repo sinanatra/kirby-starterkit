@@ -1,0 +1,34 @@
+{
+  "name": "sinanatra/kirby-starterkit",
+  "description": "Starterkit for Kirby 3",
+  "type": "project",
+  "keywords": ["kirby", "cms", "starterkit"],
+  "homepage": "https://giacomonanni.info",
+  "authors": [
+      {
+          "name": "Giacomo Nanni",
+          "email": "hello@giacomonanni.info",
+          "homepage": "https://giacomonanni.info"
+      }
+  ],
+  "require": {
+      "php": ">=7.1.0",
+      "getkirby/cms": "^3.0",
+      "sylvainjule/pagetable": "^1.0",
+      "k-community/markdown-field": "^1.0",
+      "sylvainjule/autofocus": "^1.0",
+      "sylvainjule/previews": "^1.0",
+      "rasteiner/k3-pagesdisplay-section": "^0.0.5",
+      "hashandsalt/kirby-chopper": "^2.0",
+      "sylvainjule/color-palette": "^1.0",
+      "bnomei/kirby3-robots-txt": "^1.2",
+      "omz13/kirby3-xmlsitemap": "^1.2",
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "extra": {
+    "kirby-plugin-path": "www/site/plugins",
+    "kirby-cms-path": "www/kirby"
+  }
+}

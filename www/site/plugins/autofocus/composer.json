@@ -1,0 +1,19 @@
+{
+    "name": "sylvainjule/autofocus",
+    "description": "Content aware image cropping for Kirby",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sylvain Julé",
+            "email": "contact@sylvain-jule.fr"
+        }
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1"
+    },
+    "extra": {
+        "installer-name": "autofocus"
+    },
+    "minimum-stability": "beta"
+}

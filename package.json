@@ -1,0 +1,61 @@
+{
+  "name": "kirby-starterkit",
+  "version": "1.0.0",
+  "description": "Starterkit for Kirby 3",
+  "author": "sinanatra",
+  "license": "MIT",
+  "private": false,
+  "homepage": "https://github.com/sinanatra/kirby-starterkit#readme",
+  "bugs": {
+    "url": "https://github.com/sinanatra/kirby-starterkit/issues"
+  },
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "start": "npm run dev && npm run watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinanatra/kirby-starterkit.git"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "lazysizes": "^5.1.0",
+    "mdn-polyfills": "^5.18.0",
+    "nodelist-foreach-polyfill": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/plugin-transform-block-scoping": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "babel-plugin-lodash": "^3.3.4",
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "core-js": "^3.1.4",
+    "css-loader": "^3.1.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^4.1.0",
+    "hard-source-webpack-plugin": "^0.13.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "modernizr-webpack-plugin": "^1.0.7",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "postcss-pipeline-webpack-plugin": "^5.1.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "stylelint": "^13.6.1",
+    "stylelint-order": "^4.1.0",
+    "svg-sprite-loader": "^4.1.6",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}

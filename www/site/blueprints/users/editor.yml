@@ -1,0 +1,5 @@
+title: Editeur
+description: L'éditeur peut modifier tous les contenus.
+
+permissions:
+  users: false
