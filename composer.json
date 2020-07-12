@@ -22,7 +22,7 @@
       "hashandsalt/kirby-chopper": "^2.0",
       "sylvainjule/color-palette": "^1.0",
       "bnomei/kirby3-robots-txt": "^1.2",
-      "omz13/kirby3-xmlsitemap": "^1.2",
+      "omz13/kirby3-xmlsitemap": "^1.2"
   },
   "config": {
     "optimize-autoloader": true
