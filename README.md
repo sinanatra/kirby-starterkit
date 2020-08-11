@@ -76,9 +76,8 @@ webpack.config.js
 
 You will apply the changes to the following files/folders:
 + `www` folder and its subfolders: the main folder for Kirby coding. [Kirby documentation](https://getkirby.com/docs/reference) will be really useful to help you here.
-+ `src` folder and its subfolders: every file that is here will be compile to the `www/assets` folder. You will already find `scss` and `js` folders where you can code your stylesheets (with SCSS/CSS) and your scripts (with JS). You might have to add `fonts` and `images` folders for font and image files that are linked to your CSS files. In `scss` folder, you will already find my [SCSS Starterkit](https://github.com/sinanatra/scss-starterkit), very useful if you want to configure you website really easily. 
++ `src` folder and its subfolders: every file that is here will be compile to the `www/assets` folder. You will already find `scss` and `js` folders where you can code your stylesheets (with SCSS/CSS) and your scripts (with JS). You might have to add `fonts` and `images` folders for font and image files that are linked to your CSS files. In `scss` folder, you will already find my [SCSS Starterkit](https://github.com/sinanatra/scss-starterkit), very useful if you want to configure your website easily. 
 
-All other files can obviously be modified, **if you know what you are doing!!!**
 
 ## Contribute 
 
