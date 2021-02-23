@@ -1,6 +1,6 @@
 # Kirby Starterkit
 
-This repo is my own starterkit for Kirby 3 projects. Following the structure of [Quentin Creuzet's](https://github.com/quentin-f451/kirby-starterkit) repository,  it works with Webpack and BrowserSync and allows to work with SCSS and ES6. Featuring [Kirby CMS](https://getkirby.com/) and [SCSS Starterkit](https://github.com/sinanatra/scss-starterkit).
+This repo is my own starterkit for Kirby 3 projects. It works with Webpack and BrowserSync and allows to work with SCSS and ES6. Featuring [Kirby CMS](https://getkirby.com/) and [SCSS Starterkit](https://github.com/sinanatra/scss-starterkit).
 
 ## Requirements
 
