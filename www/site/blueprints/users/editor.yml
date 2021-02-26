@@ -1,5 +1,5 @@
 title: Editor
-description: The editor can modify all the content.
+description: The editor can modify content.
 
 permissions:
   users: false

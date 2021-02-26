@@ -39,7 +39,7 @@
   <meta name="msapplication-wide310x150logo" content="<?php snippet('modules/favicon', ['size' => 310]); ?>" />
   <meta name="msapplication-square310x310logo" content="<?php snippet('modules/favicon', ['size' => 310]); ?>" />
 
-  <meta property="og:url" content="<?= $site->url() ?>">
+  <meta property="og:url" content="<?= $page->url() ?>">
   <meta property="og:type" content="website">
   <meta property="og:title" content="<?= $page->createTitle() ?>">
   <meta property="og:description" content="<?= $page->createDescription() ?>">
@@ -61,4 +61,3 @@
 <main class="main">
   <div class="content">
     <?php snippet('modules/header') ?>
-      

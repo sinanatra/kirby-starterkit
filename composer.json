@@ -12,17 +12,14 @@
       }
   ],
   "require": {
-      "php": ">=7.1.0",
-      "getkirby/cms": "^3.0",
-      "sylvainjule/pagetable": "^1.0",
-      "k-community/markdown-field": "^1.0",
-      "sylvainjule/autofocus": "^1.0",
-      "sylvainjule/previews": "^1.0",
-      "rasteiner/k3-pagesdisplay-section": "^0.0.5",
-      "hashandsalt/kirby-chopper": "^2.0",
-      "sylvainjule/color-palette": "^1.0",
-      "bnomei/kirby3-robots-txt": "^1.2",
-      "omz13/kirby3-xmlsitemap": "^1.2"
+    "php": ">=7.1.0",
+    "getkirby/cms": "^3.4",
+    "k-community/markdown-field": "^1.0",
+    "sylvainjule/previews": "^1.0",
+    "rasteiner/k3-pagesdisplay-section": "^0.0.6",
+    "bnomei/kirby3-robots-txt": "^1.4",
+    "omz13/kirby3-xmlsitemap": "^1.2",
+    "timoetting/kirby-builder": "^2.0"
   },
   "config": {
     "optimize-autoloader": true

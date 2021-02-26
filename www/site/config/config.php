@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'community.markdown-field.buttons' => ['bold', 'italic', 'pagelink', 'image', 'link', 'email'],
+    'community.markdown-field.buttons' => ['italic', 'link', 'email'],
     'community.markdown-field.font' => [
         'family' => 'sans-serif',
         'scaling' => false,
@@ -50,5 +50,4 @@ return [
     'smartypants' => true,
 
     'medienbaecker.autoresize.maxWidth' => 2560,
-
-   ];
+];
