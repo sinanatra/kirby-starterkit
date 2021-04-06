@@ -35,7 +35,7 @@ cd ../..
 npm install
 ```
 
-5. Ttype `npm run start` now, open `http://localhost:3000` and to start coding. The browser will reload at every saved change.
+5. Type `npm run start` now, open `http://localhost:3000` and to start coding. The browser will reload at every saved change.
 
 6. At the end of your coding process, you can run the `npm run build` command.
 
