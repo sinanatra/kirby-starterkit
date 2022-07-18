@@ -12,13 +12,15 @@
       }
   ],
   "require": {
-    "php": ">=7.1.0",
-    "getkirby/cms": "^3.4",
-    "k-community/markdown-field": "^1.0",
-    "sylvainjule/previews": "^1.0",
-    "rasteiner/k3-pagesdisplay-section": "^0.0.6",
-    "bnomei/kirby3-robots-txt": "^1.4",
-    "omz13/kirby3-xmlsitemap": "^1.2",
+    "php": ">=8.1",
+    "getkirby/cms": "^3.7",
+    "k-community/markdown-field": "^2.0",
+    "bnomei/kirby3-robots-txt": "^1.5",
+    "omz13/kirby3-xmlsitemap": "^1.2.1",
+    "jg/kirby-fields-block": "^1.1",
+    "sylvainjule/backups": "^1.0.2",
+    "bnomei/kirby3-janitor": "^2.16.1",
+    "bnomei/kirby3-fingerprint": "^3.1.2",
     "timoetting/kirby-builder": "^2.0"
   },
   "config": {
