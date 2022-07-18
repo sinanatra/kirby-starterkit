@@ -24,7 +24,7 @@
     "jg/kirby-fields-block": "^1.1",
     "sylvainjule/backups": "^1.0.2",
     "bnomei/kirby3-janitor": "^2.16.1",
-    "bnomei/kirby3-fingerprint": "^3.1.2",
+    "bnomei/kirby3-fingerprint": "^3.1.2"
   },
   "config": {
     "optimize-autoloader": true
